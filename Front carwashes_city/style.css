@@ -1,0 +1,133 @@
+#parent{
+    width: 1300px;
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+    background-image: url(./img/pic.jpg);
+}
+
+#parent_box{
+    display: flex;
+    width: 400px;
+    height: 600px;
+
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#box_btn{
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    flex-direction: column;
+    display: flex;
+
+    
+}
+#text{
+    color: aqua;
+}
+
+
+#container_box{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 500px;
+    flex-direction: column;
+    
+}
+#box{
+    width: 400px;
+}
+
+.carWashes_info{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid white;
+    font-size: 15px;
+    color: aqua;
+
+}
+
+#btn_carwash{
+    width: 230px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    
+}
+#btn_city{
+    width: 230px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.name{
+    width: 200px;
+    border: 1px solid black;
+}
+.city{
+    width: 200px;
+    border: 1px solid black;
+}
+#simple{
+    width: 450px;
+    height: 90px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+
+
+}
+#center_box{
+    display: flex;
+    width: 450px;
+    height: 600px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#btnCity{
+    width: 230px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+#city_info{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#selectBtn{
+    height: 40px;
+    
+    width: 160px;
+    border-radius: 10px;
+}
+
+#centerInfoCity{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+}
+#center_info{
+    margin-left: 25px;
+    margin-bottom: 65px;
+}
+#center_info_city{
+    margin-top: 132px;
+}
